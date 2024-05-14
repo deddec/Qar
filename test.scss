@@ -1,0 +1,42 @@
+ 
+.container 
+{
+	max-width: 1200px;
+	margin: 30px auto;
+	padding: 30px;
+
+	.buttons
+	{
+		margin-left: 527px;
+		button 
+		{
+			background: none;
+			border: 1px solid black;
+			padding: 10px 20px;
+			font-size: .9rem;
+			&:hover 
+			{
+				background: orangered;
+			}
+		}
+	}
+	
+	.slider 
+	{
+		border: 2px solid black;
+		max-width: 100%;
+		width: 300px;
+		margin: 20px auto;
+		overflow: hidden;
+		&-line 
+		{
+			width: 300px;
+			display: flex;
+			background: orange;
+			position: relative;
+			left: 0;
+			transition: all ease 1s;
+		}
+	}
+}
+

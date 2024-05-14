@@ -1,0 +1,1303 @@
+@font-face 
+{
+    font-family: "Blacks Italic";
+    src: url("intro-black-italic.woff")format("woff");
+}
+
+@font-face 
+{
+    font-family: "Italic";
+    src: url("italic.woff")format("woff");
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color:#3D2020;
+    border-radius: 8px;
+    &:hover{
+        background-color:#ABA0A0;
+    }
+}
+
+.body
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black;
+    user-select: none;
+    height: 100%;
+
+    .navbar
+    {
+        width: 100%;
+        max-width: 1504px;
+        padding: 4px;
+        background-image: linear-gradient(to right,#ABA0A0,#454040);
+        justify-content: center;
+
+        .container
+        {
+            display: flex;
+            width: 100%;
+            max-width: 1504px;
+
+            .logo
+            {
+                margin-left: 15px;
+            }
+
+            .searching
+            {
+                margin-left: 90px;
+                padding: 5px;
+
+                .search
+                {
+                    font-size: 30px;
+                    font-family: "Blacks Italic";
+                }
+            }
+            
+            .menu
+            {
+                display: flex;
+                gap: 20px;
+                margin-left: 50%;
+                align-items: center;
+                color: white;
+
+                .login
+                {
+                    border: 1px solid black;
+                    width: 100%;
+                    max-width:100px;
+                    font-size: 17px;
+                    padding: 3px 5px 3px 5px;
+                    text-align: center;
+                    font-family: "Blacks Italic";
+                    background-color: #3D2020;
+                    border-radius: 5px;
+                }
+                
+                .login:hover
+                {
+                    padding: 6px ;
+                    background-color: #DAC0C0;
+                }
+
+                .loginin
+                {
+                    border: 1px solid black;
+                    width: 100%;
+                    max-width: 120px;
+                    font-size: 17px;
+                    padding: 3px 5px 3px 5px;
+                    text-align: center;
+                    font-family: "Blacks Italic";
+                    background-color: #3D2020;
+                    border-radius: 5px;
+                    color: white;
+                }
+
+                .loginin:hover
+                {
+                    padding: 6px;
+                    background-color: #DAC0C0;
+                }
+            }
+        }
+    }
+
+    .navbar1
+    {
+        width: 100%;
+        max-width: 1504px;
+        padding: 4px;
+        justify-content: center;
+        background-color: #3D2020;
+
+        .imgburger
+        {
+            width: 30px;
+            height: 30px;
+            display: none;
+        }
+
+        .container1
+        {
+            display: flex;
+            width: 100%;
+            max-width: 1504px;
+
+            .menu1
+            {
+                display: flex;
+                gap: 20px;
+                color: white;
+                margin-left: 5px;
+                .working
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .working:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+
+                .auction
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .auction:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+
+                .hints
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .hints:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+            }
+        }
+    }
+
+    .banner
+    {
+        border:1px solid black;
+        width: 100%;
+        max-width: 1504px;
+        margin-bottom: -5px;
+        
+        .img
+        {
+            border:none;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .items
+    {
+        width:100%;
+        max-width: 1504px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .textauction
+        {
+            border: 1px solid black;
+            width:100%;
+            max-width: 1504px;
+            font-family: "Blacks Italic" ;
+            font-size: 17px;
+            padding: 5px 4px;
+            color:white;
+            background-color: #3D2020;
+        }
+
+        .item
+        {
+            display: flex;
+            background-color: black;
+            gap:40px;
+            border: 1px solid black;
+            height: 100%;
+            flex-wrap: wrap;
+            padding: 5%;
+            flex-direction: row;
+
+
+            .item1
+            {
+                background-color: #3D2020;
+                width: 100%;
+                max-width: 300px;
+                height:100%;
+                border-radius: 5px;
+                margin-top: 10px;
+
+                .img1
+                {
+                    padding: 12px;
+                    border-radius: 10px;
+
+                    .img11
+                    {
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 5px;
+                    }
+                }
+
+                .text1
+                {
+                    color:white;
+                    padding: 0px 12px;
+                }
+
+                .button1
+                {
+                    color: white;
+                    background-color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+
+                .button1:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                .button2
+                {
+                    color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+
+                .button2:hover
+                {
+                    color: white;
+                    background-color: white;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+            }
+
+            .item2
+            {
+                background-color: #3D2020;
+                width: 100%;
+                max-width: 300px;
+                height: 100%;
+                border: 1px solid black;
+                margin-top: 10px;
+                border-radius: 5px;
+
+                .img2
+                {
+                padding: 12px;
+                border-radius: 10px;
+
+                    .img22
+                    {
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 5px;
+                    }
+                }
+
+                .text2
+                {
+                    color:white;
+                    padding: 0px 12px;
+                }
+
+                .button1
+                {
+                    color: white;
+                    background-color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+
+                    .links
+                    {
+                        color:white ;
+                        text-decoration: none;
+                    }
+                }
+
+                .button1:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                .button2
+                {
+                    color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+
+                .button2:hover
+                {
+                    color: white;
+                    background-color: white;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+            }
+
+            .item3
+            {
+                background-color: #3D2020;
+                width: 100%;
+                max-width: 300px;
+                height: 100%;
+                border: 1px solid black;
+                margin-top: 10px;
+                border-radius: 5px;
+
+                .img3
+                {
+                    padding: 12px;
+                    border-radius: 10px;
+
+                    .img33
+                    {
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 5px;
+                    }
+                }
+
+                .text3
+                {
+                    color:white;
+                    padding: 0px 12px;  
+                }
+
+                .button1
+                {
+                    color: white;
+                    background-color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+
+                .button1:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                .button2
+                {
+                    color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+
+                .button2:hover
+                {
+                    color: white;
+                    background-color: white;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+            }
+
+            .item4
+            {
+                background-color: #3D2020;
+                width: 100%;
+                max-width: 300px;
+                height: 100%;
+                border: 1px solid black;
+                margin-top: 10px;
+                border-radius: 5px;
+
+                .img4
+                {
+                    padding: 12px;
+                    border-radius: 10px;
+
+                    .img44
+                    {
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 5px;
+                    }
+                }
+
+                .text4
+                {
+                    color:white;
+                    padding: 0px 12px;  
+                }
+
+                .button1
+                {
+                    color: white;
+                    background-color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+
+                .button1:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                .button2
+                {
+                    color: #DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+
+                .button2:hover
+                {
+                    color: white;
+                    background-color: white;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 5px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                }
+            }
+        }
+
+        .buttons
+        {
+            display: flex;
+            background-color: black;
+            border: 1px solid black;
+            justify-content: center;
+            width: 100%;
+            max-width: 1504px;
+            height: 100%;
+            cursor: pointer;
+            flex-direction: column;
+
+            .iteml
+            {
+                display: none;
+                background-color: black;
+                gap:40px;
+                border: 1px solid black;
+                height: 100%;
+                flex-wrap: wrap;
+                padding: 5%;
+                flex-direction: row;
+
+
+                .item1l
+                {
+                    background-color: #3D2020;
+                    width: 100%;
+                    max-width: 300px;
+                    height:100%;
+                    border-radius: 5px;
+                    margin-top: 10px;
+
+                    .img1l
+                    {
+                        padding: 12px;
+                        border-radius: 10px;
+
+                        .img11l
+                        {
+                            width: 280px;
+                            height: 200px;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .text1l
+                    {
+                        color:white;
+                        padding: 0px 12px;
+                    }
+
+                    .button1l
+                    {
+                        color: white;
+                        background-color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 40px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+
+                    .button1l:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                    .button2l
+                    {
+                        color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+
+                    .buttonl2:hover
+                    {
+                        color: white;
+                        background-color: white;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+                }
+
+                .item2l
+                {
+                    background-color: #3D2020;
+                    width: 100%;
+                    max-width: 300px;
+                    height: 100%;
+                    border: 1px solid black;
+                    margin-top: 10px;
+                    border-radius: 5px;
+
+                    .img2l
+                    {
+                        padding: 12px;
+                        border-radius: 10px;
+
+                        .img22l
+                        {
+                            width: 280px;
+                            height: 200px;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .text2l
+                    {
+                        color:white;
+                        padding: 0px 12px;
+                    }
+
+                    .button1l
+                    {
+                        color: white;
+                        background-color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 40px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+
+                        .linksl
+                        {
+                            color:white ;
+                            text-decoration: none;
+                        }
+                    }
+
+                    .button1l:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                    .button2l
+                    {
+                        color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+
+                    .button2l:hover
+                    {
+                        color: white;
+                        background-color: white;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+                }
+
+                .item3l
+                {
+                    background-color: #3D2020;
+                    width: 100%;
+                    max-width: 300px;
+                    height: 100%;
+                    border: 1px solid black;
+                    margin-top: 10px;
+                    border-radius: 5px;
+
+                    .img3l
+                    {
+                        padding: 12px;
+                        border-radius: 10px;
+
+                        .img33l
+                        {
+                            width: 280px;
+                            height: 200px;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .text3l
+                    {
+                        color:white;
+                        padding: 0px 12px;  
+                    }
+
+                    .button1l
+                    {
+                        color: white;
+                        background-color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 40px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+
+                    .button1l:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                    .button2l
+                    {
+                        color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+
+                    .button2l:hover
+                    {
+                        color: white;
+                        background-color: white;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+                }
+
+                .item4l
+                {
+                    background-color: #3D2020;
+                    width: 100%;
+                    max-width: 300px;
+                    height: 100%;
+                    border: 1px solid black;
+                    margin-top: 10px;
+                    border-radius: 5px;
+
+                    .img4l
+                    {
+                        padding: 12px;
+                        border-radius: 10px;
+
+                        .img44l
+                        {
+                            width: 280px;
+                            height: 200px;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .text4l
+                    {
+                        color:white;
+                        padding: 0px 12px;  
+                    }
+
+                    .button1l
+                    {
+                        color: white;
+                        background-color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 40px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+
+                    .button1l:hover
+                {
+                    color:#DAC0C0;
+                    border-radius: 8px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: 200px;
+                    margin: 40px 0px 0px 50px;
+                    padding: 2px;
+                    font-size: 17px;
+                    font-family: "Blacks Italic";
+                    background-color:#3D2020;
+                }
+
+                    .button2l
+                    {
+                        color: #DAC0C0;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+
+                    .button2l:hover
+                    {
+                        color: white;
+                        background-color: white;
+                        border-radius: 8px;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 200px;
+                        margin: 5px 0px 0px 50px;
+                        padding: 2px;
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                    }
+                }
+            }
+
+            .button
+            {
+                color: black;
+                background-color: #DAC0C0;
+                border-radius: 8px;
+                text-align: center;
+                width: 100%;
+                max-width: 200px;
+                padding:2px;
+                font-size: 17px;
+                font-family: "Blacks Italic";
+                height: 100%;
+                margin-top: 16px;
+                margin-left: 43%;
+            }
+
+            .button:hover
+            {
+                color: white;
+                background-color: #3D2020;
+                padding: 4px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .questions
+    {
+        background-color: black;
+        width: 100%;
+        max-width: 1504px;
+        height:100%;
+        margin-top: 30px;
+
+        .name
+        {
+            text-align: center;
+            align-items: center;
+            color: white;
+            font-family: "Blacks Italic";
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        .questions_answers
+        {
+            .answers1
+            {
+                margin-top: 3px;
+                align-items: flex-start;
+                color: white;
+                font-family: "Blacks Italic";
+                font-size: 15px;
+                padding: 15px;
+                border-top: 0.5px solid white;
+                border-bottom:0.5px solid white;
+                cursor: pointer;
+            }
+
+            .content
+            {
+                font-size: 14px;
+                font-family: "Italic";
+                color: white;
+                padding: 10px;
+                margin: 4px 5px 4px 5px;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+                display: none;
+            }
+        }
+    }
+
+    .footer
+    {
+        display: flex;
+        background-color: black;
+        border: 1px solid black;
+        width: 100%;
+        max-width: 1504px;
+        height: 300px;
+        gap: 90px;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        .maps
+        {
+            .text
+            {
+                font-size: 17px;
+                font-family: "Blacks Italic";
+                color: white;
+                padding: 2px;
+                margin-left: 10px;
+            }
+        
+            .map
+            {
+                width: 100%;
+                max-width: 100px;
+                height: 100%;
+                margin-left: 25px;
+                margin-top: 10px;
+            }
+        }
+
+        .messendger
+        {
+            display:flex;
+            margin-left:25px;
+            gap: 5px;
+            
+            .telegram
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+                cursor: pointer;
+            }
+
+            .instagram
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+                cursor: pointer;
+            }
+
+            .discord
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+                cursor: pointer;
+            }
+        }
+
+        .сontacts
+        {
+            background-color: #3D2020;
+            width: 100%;
+            max-width: 200px;
+            height: 100%;
+            max-height: 210px;
+            border: 1px solid black;
+            margin-left: 20px;
+
+            .img
+            {
+                width: 100%;
+                max-width: 170px;
+                height: 100%;
+                max-height: 80px;
+                padding: 8px;
+            }
+
+            .text
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                padding: 8px;
+                font-size: 12px;
+                text-align: center;
+            }
+
+        }
+
+        .administrators
+        {
+            margin-left: 10px;
+
+            .text1
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                font-size: 16px;
+
+            }
+
+            .text2
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px)
+{
+    .body
+    {
+        .navbar
+        {
+            .container
+            {
+                .menu
+                {
+                    margin-left: 20%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:700px)
+{
+    .body
+    {
+        .navbar
+        {
+            .container
+            {
+                .menu
+                {
+                    margin-left: 5%;
+                    flex-wrap: wrap;
+                    gap: 0;
+                }
+
+                .searching
+                {
+                    margin-left: 20px;
+                }
+
+                .logo
+                {
+                    margin-top: 5%;
+                }
+            }
+        }
+
+        .navbar1
+        {
+           background-color: black;
+
+            .imgburger
+            {
+                display: flex;
+            }
+
+            .container1
+            {
+                width: 150px;
+                display: none;
+                background-color: black;
+                .menu1
+                {
+                    flex-direction: column;
+
+                        .working
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .working:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+
+                    .auction
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .auction:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+
+                    .hints
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .hints:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+                }
+            }
+        }
+
+        .items
+        {
+            .item
+            {
+              align-items: center;  
+              -ms-flex-align: center;
+              margin-left: 46px;
+            }
+
+            .buttons
+            {
+                .button
+                {
+                    margin-left: 115px;
+                }
+            }
+
+            .iteml
+            {
+              align-items: center;  
+              -ms-flex-align: center;
+              margin-left: 46px;
+            }
+        }
+
+        .footer
+        {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 67px;
+            .maps
+            {
+                .text
+                {
+                    display: none;
+                }
+
+                .map
+                {
+                    display: none;
+                }
+
+                .messendger
+                {
+                    flex-direction: column;
+                    gap: 20px;
+                }
+            }
+
+            .administrators
+            {
+                display: none;
+            }
+        }
+    }
+}

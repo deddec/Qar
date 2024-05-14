@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсач</title>
+    <link rel="stylesheet" href="corsina.css">
+    <script src="script.js"></script>
+</head>
+<body class="body">
+    <header>
+        <div class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <img src="../img/decster.svg" alt="hui" class="logotip">
+                    </div>
+
+                    <div class="searching">
+                        <div class="search">
+                            Swiwt Stride
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar1">
+            <img src="../img/burger.png" alt="hui" class="imgburger" onclick="toggleCollapse('myCollapse6')">
+            <div class="container1" id="myCollapse6">
+                <div class="menu1">
+                    <div class="working">
+                        <a href="#section1" style="text-decoration: none;color: inherit;"> Как это работает ?</a>
+                    </div>
+
+                    <div class="auction">
+                        <a href="https://index.html#section3" style="text-decoration: none;color: inherit;">Аукционны</a>
+                    </div>
+
+                    <div class="hints">
+                        <a href="#section2" style="text-decoration: none;color: inherit;">Услуги и поддержка</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="banner">
+        <img src="..\img\Group 74.png" alt="hui" class="img">
+    </section>
+
+    <section class="registr">
+        Вход
+    </section>
+
+    <section class="areareg">
+
+        <div>
+            <form action="https://httpbin.org/post" method="post">
+                <div class="form">
+                    <div>
+                    <input class="name" type="text" id="name" name="user_name" required  placeholder="Введите имя и фамилию">
+                    </div>
+                    <div>
+                    <input class="name" type="email" id="mail" name="user_mail" required  placeholder="Введите email">
+                    </div>
+                    <div>
+                    <button class="button" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form> 
+        </div>
+    </section>
+
+    <footer>
+        <div class="questions" id="section1">
+            <div class="name">
+                Вопросы и ответы
+            </div>
+            <div class="questions_answers">
+                <div onclick="toggleCollapse('myCollapse1')" class="answers1">
+                    Как делать ставки?
+                </div>
+                <div class="content" id="myCollapse1">
+                    dskdsgnfdh;dfhghfdhfshfuhfhfsfhs
+                </div>
+                <div onclick="toggleCollapse('myCollapse2')"  class="answers1">
+                    Есть ли гарантии?
+                </div>
+                <div  class="content" id="myCollapse2">
+                    dskdsgnfdh;dfhghfdhfshfuhfhfsfhs
+                </div>
+                <div onclick="toggleCollapse('myCollapse3')"  class="answers1" id="myCollapse">
+                    Удобна ли доставка?
+                </div>
+                <div class="content" id="myCollapse3">
+                    dskdsgnfdh;dfhghfdhfshfuhfhfsfhs
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" id="section2">
+            <div class="maps">
+                <div class="text">
+                      Найдите нас на карте!
+                      <br>
+                </div>
+                <div class="map">
+                    <img class="map" src="..\img\Rectangle 32.png" alt="hui">
+                </div>
+                <div class="messendger">
+                    <div class="telegram">
+                        <img class="telegram" src="..\img\telegram.png" alt="hui">
+                    </div>
+                    <div class="instagram">
+                        <img class="instagram" src="..\img\instagram.png" alt="hui">
+                    </div>
+                    <div class="discord">
+                        <img class="discord" src="..\img\discord.png" alt="hui">
+                    </div>
+                </div>
+            </div>
+            <div class="сontacts">
+                <div class="img">
+                    <img class="img" src="..\img\compagne.png" alt="hui">
+                </div>
+                <div class="text">
+                    Поддержка и помощь
+                    <br>
+
+                    <br>
+                    Контакты:
+                    <br>
+
+                    <br>
+                    +375xxxxxxxxx
+                    <br>
+                    +375xxxxxxxxx
+                    <br>
+                </div>
+            </div>
+            <div class="administrators">
+                <div class="text1">
+                    “Удача это лишь инструмент,
+                    <br>
+                    без неё человек не
+                    <br> 
+                    станет  пустышкой” 
+                    <br>
+                    Кто- то.
+                    <br>
+                </div>
+                <div class="text2">
+                    Администраторы:
+                    <br>
+                    Decster,
+                    <br>
+                    Genzzzo,
+                    <br>
+                    Sacha
+                    <br>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

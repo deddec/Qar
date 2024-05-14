@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Blacks Italic";
+  src: url("intro-black-italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Italic";
+  src: url("italic.woff") format("woff");
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3D2020;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ABA0A0;
+}
+
+.body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.body .navbar {
+  width: 100%;
+  max-width: 1505px;
+  padding: 4px;
+  background-image: linear-gradient(to right, #ABA0A0, #454040);
+  justify-content: center;
+  overflow: hidden;
+}
+.body .navbar .container {
+  display: flex;
+  width: 100%;
+}
+.body .navbar .container .logo {
+  margin-left: 15px;
+}
+.body .navbar .container .searching {
+  margin-left: 90px;
+  padding: 5px;
+}
+.body .navbar .container .searching .search {
+  font-size: 30px;
+  font-family: "Blacks Italic";
+}
+.body .navbar1 {
+  width: 100%;
+  max-width: 1505px;
+  padding: 4px;
+  justify-content: center;
+  background-color: #3D2020;
+}
+.body .navbar1 .imgburger {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.body .navbar1 .container1 {
+  display: flex;
+  width: 100%;
+}
+.body .navbar1 .container1 .menu1 {
+  display: flex;
+  gap: 20px;
+  color: white;
+  margin-left: 5px;
+}
+.body .navbar1 .container1 .menu1 .working {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  cursor: pointer;
+}
+.body .navbar1 .container1 .menu1 .working:hover {
+  font-size: 15px;
+  color: #DAC0C0;
+}
+.body .navbar1 .container1 .menu1 .auction {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  cursor: pointer;
+}
+.body .navbar1 .container1 .menu1 .auction:hover {
+  font-size: 15px;
+  color: #DAC0C0;
+}
+.body .navbar1 .container1 .menu1 .hints {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  cursor: pointer;
+}
+.body .navbar1 .container1 .menu1 .hints:hover {
+  font-size: 15px;
+  color: #DAC0C0;
+}
+.body .corsd {
+  display: flex;
+}
+.body .corsd .corsbut {
+  background-color: #3D2020;
+  color: white;
+  padding: 1px 4px 1px 4px;
+  font-family: "Blacks Italic";
+  font-size: 16px;
+  margin: 10px 0px 0px 10px;
+}
+.body .corsd .corsbut:hover {
+  background-color: #DAC0C0;
+  color: #3D2020;
+}
+.body .corsd .textcors {
+  color: white;
+  font-family: "Italic";
+  font-size: 14px;
+  border: 1px solid white;
+  margin: 10px 0px 0px 10px;
+}
+.body .footer {
+  display: flex;
+  background-color: black;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 1505px;
+  height: 300px;
+  gap: 90px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.body .footer .maps .text {
+  font-size: 17px;
+  font-family: "Blacks Italic";
+  color: white;
+  padding: 2px;
+  margin-left: 10px;
+}
+.body .footer .maps .map {
+  width: 100%;
+  max-width: 100px;
+  height: 100%;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.body .footer .messendger {
+  display: flex;
+  margin-left: 25px;
+  gap: 10px;
+}
+.body .footer .messendger .telegram {
+  width: 100%;
+  max-width: 40px;
+  height: 100%;
+  max-height: 40px;
+  margin-top: 6px;
+}
+.body .footer .messendger .instagram {
+  width: 100%;
+  max-width: 40px;
+  height: 100%;
+  max-height: 40px;
+  margin-top: 6px;
+}
+.body .footer .messendger .discord {
+  width: 100%;
+  max-width: 40px;
+  height: 100%;
+  max-height: 40px;
+  margin-top: 6px;
+}
+.body .footer .сontacts {
+  background-color: #3D2020;
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 210px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.body .footer .сontacts .img {
+  width: 100%;
+  max-width: 170px;
+  height: 100%;
+  max-height: 80px;
+  padding: 8px;
+}
+.body .footer .сontacts .text {
+  font-family: "Blacks Italic";
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  text-align: center;
+}
+.body .footer .administrators {
+  margin-left: 10px;
+}
+.body .footer .administrators .text1 {
+  font-family: "Blacks Italic";
+  color: white;
+  font-size: 16px;
+}
+.body .footer .administrators .text2 {
+  font-family: "Blacks Italic";
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}/*# sourceMappingURL=cors.css.map */

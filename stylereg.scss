@@ -1,0 +1,660 @@
+@font-face 
+{
+    font-family: "Blacks Italic";
+    src: url("intro-black-italic.woff")format("woff");
+}
+
+@font-face 
+{
+    font-family: "Italic";
+    src: url("italic.woff")format("woff");
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color:#3D2020;
+    border-radius: 8px;
+    &:hover{
+        background-color:#ABA0A0;
+    }
+}
+
+.body
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black;
+    user-select: none;
+    height: 100%;
+
+    .navbar
+    {
+        width: 100%;
+        max-width: 1504px;
+        padding: 4px;
+        background-image: linear-gradient(to right,#ABA0A0,#454040);
+        justify-content: center;
+        overflow: hidden;
+
+        .container
+        {
+            display: flex;
+            width: 100%;
+            max-width: 1504px;
+            .logo
+            {
+                margin-left: 15px;
+            }
+
+            .searching
+            {
+                margin-left: 90px;
+                padding: 5px;
+
+                .search
+                {
+                font-size: 30px;
+                font-family: "Blacks Italic";
+                }
+            }
+        }
+    }
+
+    .navbar1
+    {
+        width: 100%;
+        max-width: 1504px;
+        padding: 4px;
+        justify-content: center;
+        background-color: #3D2020;
+
+        .imgburger
+        {
+            width: 30px;
+            height: 30px;
+            display: none;
+        }
+
+        .container1
+        {
+            display: flex;
+            width: 100%;
+            max-width: 1504px;
+
+            .menu1
+            {
+                display: flex;
+                gap: 20px;
+                color: white;
+                margin-left: 5px;
+                .working
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .working:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+
+                .auction
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .auction:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+
+                .hints
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .hints:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+            }
+        }
+    }
+
+    .banner
+    {
+        border:1px solid black;
+        width: 100%;
+        max-width: 1504px;
+        height: 100%;
+        margin: 0px;
+        .img
+        {
+            border:none;
+            width: 100%;
+            max-width: 1504px;
+            height: 100%;
+        }
+    }
+
+    .registr
+    {
+        text-align: center;
+        color: white;
+        font-family: "Blacks Italic";
+        font-size: 20px;
+        background-color: #3D2020;
+        padding: 4px;
+    }
+
+    .areareg
+    {
+        background-color: black;
+        width: 100%;
+        max-width: 1504px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .form
+        {
+            margin-top: 20px;
+            
+            .name
+            {
+                padding: 5px;
+                width: 100%;
+                max-width: 300px;
+                background-color:#3D2020;
+                color: white;
+                font-family: "Blacks Italic";
+                border: 1px solid white;
+                border-radius: 5px;
+                margin: 10px 0px 0px 10px;
+            }
+
+            .button
+            {
+                margin:10px 0px 0px 10px;
+                background-color:#DAC0C0;
+                border-radius: 5px;
+                color: white;
+                font-family: "Blacks Italic";
+            }
+        }
+
+        .rate
+        {
+            .rates
+            {
+                font-size: 20px;
+                font-family: "Blacks Italic";
+                color:white;
+                margin: 15px 0px 0px 200px;
+            }
+            .bloc
+            {
+                display: flex;
+                margin: 10px 0px 0px 55px;
+                gap: 30px;
+                .basic
+                {
+                    width: 100%;
+                    max-width: 200px;
+                    height: 100%;
+                    background-color: #3D2020;
+                    border-radius: 5px;
+                    padding: 5px;
+                    margin: 10px 0px 0px 30px;
+
+                    .bluetext
+                    {
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                        color: blue;
+                    }
+
+                    .text
+                    {
+                        font-size: 13px;
+                        font-family: "Italic";
+                        color: white;
+                    }
+                }
+                
+                .premier
+                {
+                    width: 100%;
+                    max-width: 200px;
+                    height: 100%;
+                    background-color: #3D2020;
+                    border-radius: 5px;
+                    padding: 5px;
+                    margin: 10px 0px 0px 0px;
+
+                    .bluetext
+                    {
+                        font-size: 17px;
+                        font-family: "Blacks Italic";
+                        color: blue;
+                    }
+
+                    .text
+                    {
+                        font-size: 13px;
+                        font-family: "Italic";
+                        color: white;
+                    }
+                }   
+            }
+        }
+        
+        .payment
+        {
+            margin: 20px 0px 0px 10%;
+
+            .text
+            {
+                font-size: 20px;
+                font-family: "Blacks Italic";
+                color: white;
+            }
+
+            .credit
+            {
+                display: flex;
+                padding: 2px;
+                gap: 38px;
+                margin-top: 10px;
+
+                .mastercard
+                {
+                    width: 100%;
+                    max-width: 100px;
+                    height: 100%;
+                }
+
+                .paypal
+                {
+                    width: 100%;
+                    max-width: 100px;
+                    height: 100%;
+                }
+
+                .googlepay
+                {
+                    width: 100%;
+                    max-width: 100px;
+                    height: 100%;
+                }
+            }
+        }
+
+        .adresform
+        {
+            .adres
+            {
+                color: white;
+                font-size: 18px;
+                font-family: "Blacks Italic";
+                margin: 50px 0px 10px 20%;
+            }
+
+            .addres
+            {
+                display: flex;
+                margin:10px 0px 0px 10px;
+                gap: 10px;
+            }
+
+            .country
+            {
+                display: flex;
+                margin:10px 0px 0px 10px;
+                gap: 10px;
+            }
+
+            .city
+            {
+                display: flex;
+                margin:10px 0px 0px 10px;
+                gap: 10px;
+            }
+
+            .name
+            {
+                padding: 5px;
+                width: 100%;
+                max-width: 200px;
+                height: 100%;
+                background-color:#3D2020;
+                color: white;
+                font-family: "Blacks Italic";
+                border: 1px solid white;
+                border-radius: 5px;
+                margin: 10px 0px 0px 10px;
+            }
+
+            .button
+            {
+                margin:10px 0px 0px 33%;
+                background-color:#DAC0C0;
+                border-radius: 5px;
+                color: white;
+                font-family: "Blacks Italic";
+                width: 100%;
+                max-width: 150px;
+                padding: 2px;
+            }
+        }
+    }
+
+    .questions
+    {
+        background-color: black;
+        width: 100%;
+        max-width: 1504px;
+        height:300px;
+        margin-top: 30px;
+
+        .name
+        {
+            text-align: center;
+            align-items: center;
+            color: white;
+            font-family: "Blacks Italic";
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        .questions_answers
+        {
+            .answers1
+            {
+                margin-top: 3px;
+                align-items: flex-start;
+                color: white;
+                font-family: "Blacks Italic";
+                font-size: 15px;
+                padding: 15px;
+                border-top: 0.5px solid white;
+                border-bottom:0.5px solid white;
+                cursor: pointer;
+            }
+
+            .content
+            {
+                font-size: 14px;
+                font-family: "Italic";
+                color: white;
+                padding: 10px;
+                margin: 4px 5px 4px 5px;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+                display: none;
+            }
+        }
+    }
+
+    .footer
+    {
+        display: flex;
+        background-color: black;
+        border: 1px solid black;
+        width: 100%;
+        max-width: 1504px;
+        height: 300px;
+        gap: 90px;
+        flex-wrap: wrap;
+        
+        .maps
+        {
+            .text
+            {
+                font-size: 17px;
+                font-family: "Blacks Italic";
+                color: white;
+                padding: 2px;
+                margin-left: 10px;
+            }
+        
+            .map
+            {
+                width: 100%;
+                max-width: 100px;
+                height: 100%;
+                max-height: 100px;
+                margin-left: 25px;
+                margin-top: 10px;
+            }
+        }
+
+        .messendger
+        {
+            display:flex;
+            margin-left:25px;
+            gap: 10px;
+            
+            .telegram
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+            }
+
+            .instagram
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+            }
+
+            .discord
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+            }
+        }
+
+        .сontacts
+        {
+            background-color: #3D2020;
+            width: 100%;
+            max-width: 200px;
+            height: 100%;
+            max-height: 210px;
+            border: 1px solid black;
+
+            .img
+            {
+                width: 100%;
+                max-width: 170px;
+                height: 100%;
+                max-height: 80px;
+                padding: 8px;
+            }
+
+            .text
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                padding: 8px;
+                font-size: 12px;
+                text-align: center;
+            }
+
+        }
+
+        .administrators
+        {
+            margin-left: 10px;
+
+            .text1
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                font-size: 16px;
+
+            }
+
+            .text2
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) 
+{
+    .body
+    {
+        .navbar1
+        {
+           background-color: black;
+
+            .imgburger
+            {
+                display: flex;
+            }
+
+            .container1
+            {
+                width: 150px;
+                display: none;
+                background-color: black;
+                .menu1
+                {
+                    flex-direction: column;
+
+                        .working
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .working:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+
+                    .auction
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .auction:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+
+                    .hints
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .hints:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+                }
+            }
+        }
+
+        .areareg
+        {
+            .adresform
+            {
+            margin-right: 20px;
+            }
+        }
+
+        .rate
+        {
+            margin-left: -60px;
+            gap: 0;
+
+            .rates
+            {
+                margin-left: -134px;
+            }
+
+            .bloc
+            {
+                gap:0;
+
+                .basic
+                {
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .footer
+        {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 0px;
+
+            .maps
+            {
+                .text
+                {
+                    display: none;
+                }
+
+                .map
+                {
+                    display: none;
+                }
+
+                .messendger
+                {
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                }
+
+            .сontacts
+            {
+                margin-left: 0;
+            }
+
+            .administrators
+            {
+                display: none;
+            }
+        }
+    }
+}

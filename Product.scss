@@ -1,0 +1,691 @@
+@font-face 
+{
+    font-family: "Blacks Italic";
+    src: url("intro-black-italic.woff")format("woff");
+}
+
+@font-face 
+{
+    font-family: "Italic";
+    src: url("italic.woff")format("woff");
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color:#3D2020;
+    border-radius: 8px;
+    &:hover{
+        background-color:#ABA0A0;
+    }
+}
+
+.body
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black;
+    user-select: none;
+
+    .navbar
+    {
+        width: 100%;
+        max-width: 1505px;
+        padding: 4px;
+        background-image: linear-gradient(to right,#ABA0A0,#454040);
+        justify-content: center;
+        overflow: hidden;
+
+        .container
+        {
+            display: flex;
+            width: 100%;
+
+            .logo
+            {
+                margin-left: 15px;
+            }
+
+            .searching
+            {
+                margin-left: 90px;
+                padding: 5px;
+
+                .search
+                {
+                font-size: 30px;
+                font-family: "Blacks Italic";
+                }
+            }
+        }
+    }
+
+    .navbar1
+    {
+        width: 100%;
+        max-width: 1505px;
+        padding: 4px;
+        justify-content: center;
+        background-color: #3D2020;
+
+        .imgburger
+        {
+            width: 30px;
+            height: 30px;
+            display: none;
+        }
+
+        .container1
+        {
+            display: flex;
+            width: 100%;
+
+            .menu1
+            {
+                display: flex;
+                gap: 20px;
+                color: white;
+                margin-left: 5px;
+                .working
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .working:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+
+                .auction
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .auction:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+
+                .hints
+                {
+                    font-size: 14px;
+                    font-family: "Blacks Italic";
+                    cursor: pointer;
+                }
+
+                .hints:hover
+                {
+                    font-size: 15px;
+                    color: #DAC0C0;
+                }
+            }
+        }
+    }
+
+    .productinfo
+    {
+        display: flex;
+        padding: 1px;
+        flex-wrap: wrap;
+
+        .container 
+        {
+            max-width: 1200px;
+            padding: 30px;
+
+            .buttons
+            {
+                margin-left: 75px;
+                button 
+                {
+                    background: none;
+                    border: 1px solid black;
+                    padding: 10px 20px;
+                    font-size: .9rem;
+                    color: aliceblue;
+                    &:hover 
+                    {
+                        background: orangered;
+                    }
+                }
+            }
+            
+            .slider 
+            {
+                border: 2px solid black;
+                max-width: 100%;
+                width: 300px;
+                margin: 20px auto;
+                overflow: hidden;
+                &-line 
+                {
+                    width: 300px;
+                    display: flex;
+                    background: orange;
+                    position: relative;
+                    left: 0;
+                    transition: all ease 1s;
+                }
+            }
+        }
+
+        .info
+        {
+            background-color:#3D2020;
+            width: 100%;
+            max-width: 300px;
+            height: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            margin: 13px 13px 0px 13px;
+
+            .bluetext
+            {
+                font-size: 20px;
+                font-family: "Blacks Italic";
+                color: #6A5EF4;
+                padding: 5px;
+            }
+
+            .text
+            {
+                font-size: 14px;
+                font-family: "Italic";
+                color:white;
+                padding: 3px;
+            }
+
+            .text1
+            {
+                font-size: 14px;
+                font-family: "Italic";
+                color:white;
+                padding: 6px;
+                background-color: #241A1A;
+                width: 80%;
+                border-radius: 10px;
+                margin: 0px 0px 10% 0px;
+            }
+        }
+
+        .inforate
+        {
+            background-color:#3D2020;
+            width: 100%;
+            max-width: 300px;
+            height: 100%;
+            max-height: 500px;
+            border-radius: 10px;
+            margin: 13px 13px 0px 13px;
+
+            .bluetext
+            {
+                font-size: 20px;
+                font-family: "Blacks Italic";
+                color: #6A5EF4;
+                padding: 5px;
+            }
+
+            .textrate
+            {
+                .inrate
+                {
+                    font-size: 14px;
+                    font-family: "Italic";
+                    color:white;
+                    padding: 3px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .text
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        color: white;
+                    }
+
+                    .link
+                    {
+                        font-family: "Blacks Italic";
+                        color:#6A5EF4;
+                    }
+                }
+
+                .form
+                {
+                    display: flex;
+
+                    .imgtext
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        color:white;
+                    }
+
+                    .forms
+                    {
+                        margin: 4.5% 0px 0px 4px;
+
+                        .bid
+                        {
+                            background-color: #3D2020;
+                            color: white;
+                        }
+
+                        .inform
+                        {
+                            font-size: 14px;
+                            font-family: "Blacks Italic";
+                            color:white;
+                        }
+
+                        .button
+                        {
+                            margin: 3% 0px 5% 47% ;
+                            padding: 4px;
+                            background-color:#3D2020;
+                            color: white;
+                            font-size: 14px;
+                            font-family: "Blacks Italic";
+                        }
+                    }
+                }
+            }
+        }
+
+        .deliveri
+        {
+            width: 100%;
+            max-width: 300px;
+
+            .text1
+            {
+                font-size: 20px;
+                font-family: "Blacks Italic";
+                color: white;
+                padding: 5px;
+                margin-left: 12%;
+            }
+
+            .deliveris
+            {
+                display: flex;
+                gap: 10%;
+                margin-left: 10%;
+
+                .deliveri1
+                {
+                    background-color: #3D2020;
+                    border-radius: 5px;
+                    height: 100%;
+                    max-height: 20px;
+                    font-family: "Blacks Italic";
+                    color: white;
+                    padding: 4px;
+                }
+
+                .deliveri2
+                {
+                    background-color: #3D2020;
+                    border-radius: 5px;
+                    height: 100%;
+                    max-height: 20px;
+                    font-family: "Blacks Italic";
+                    color: white;
+                    padding: 4px;
+                }
+            }
+        }
+
+        .infodeliveri
+        {
+            .text
+            {
+                font-size: 17px;
+                font-family: "Italic";
+                color: white;
+                padding: 5px;
+                margin-left: 12%;
+            }
+
+            .forms
+            {
+                display: flex;
+                .text1
+                {
+                    font-size: 15px;
+                    font-family: "Italic";
+                    color: white;
+                    padding: 5px;
+                    margin-left: 12%;
+                    width: 70%;
+                    margin-top: -5%;
+                }
+
+                .form
+                {
+                    .addres
+                    {
+                        background-color: #3D2020;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .informdeliv
+        {
+            margin: 13px 0px 0px 25px;
+            background-color: #3D2020;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 250px;
+            height: 100%;
+            max-height: 420px;
+            
+            .text
+            {
+                color: white;
+                font-family: "Italic";
+                font-size: 14px;
+                padding: 5px;
+            }
+
+            .infosale
+            {
+                .colortext
+                {
+                    font-size: 20px;
+                    font-family: "Blacks Italic";
+                    color: #6A5EF4;
+                    padding: 5px;
+                }
+
+                .text1
+                {
+                    font-size: 14px;
+                    font-family: "Italic";
+                    color: white;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+    .questions
+    {
+        background-color: black;
+        width: 100%;
+        max-width: 1505px;
+        height:300px;
+
+        .name
+        {
+            text-align: center;
+            align-items: center;
+            color: white;
+            font-family: "Blacks Italic";
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        .questions_answers
+        {
+            .answers1
+            {
+                margin-top: 3px;
+                align-items: flex-start;
+                color: white;
+                font-family: "Blacks Italic";
+                font-size: 15px;
+                padding: 15px;
+                border-top: 0.5px solid white;
+                border-bottom:0.5px solid white;
+                cursor: pointer;
+            }
+
+            .content
+            {
+                font-size: 14px;
+                font-family: "Italic";
+                color: white;
+                padding: 10px;
+                margin: 4px 5px 4px 5px;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+                display: none;
+            }
+        }
+    }
+
+    .footer
+    {
+        display: flex;
+        background-color: black;
+        border: 1px solid black;
+        width: 100%;
+        max-width: 1505px;
+        height: 300px;
+        gap: 90px;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        .maps
+        {
+            .text
+            {
+                font-size: 17px;
+                font-family: "Blacks Italic";
+                color: white;
+                padding: 2px;
+                margin-left: 10px;
+            }
+        
+            .map
+            {
+                width: 100%;
+                max-width: 100px;
+                height: 100%;
+                margin-left: 25px;
+                margin-top: 10px;
+            }
+        }
+
+        .messendger
+        {
+            display:flex;
+            margin-left:25px;
+            gap: 10px;
+            
+            .telegram
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+            }
+
+            .instagram
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+            }
+
+            .discord
+            {
+                width: 100%;
+                max-width: 40px;
+                height: 100%;
+                max-height: 40px;
+                margin-top: 6px;
+            }
+        }
+
+        .сontacts
+        {
+            background-color: #3D2020;
+            width: 100%;
+            max-width: 200px;
+            height: 100%;
+            max-height: 210px;
+            border: 1px solid black;
+            margin-left: 20px;
+
+            .img
+            {
+                width: 100%;
+                max-width: 170px;
+                height: 100%;
+                max-height: 80px;
+                padding: 8px;
+            }
+
+            .text
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                padding: 8px;
+                font-size: 12px;
+                text-align: center;
+            }
+
+        }
+
+        .administrators
+        {
+            margin-left: 10px;
+
+            .text1
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                font-size: 16px;
+
+            }
+
+            .text2
+            {
+                font-family: "Blacks Italic";
+                color: white;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) 
+{
+    .body
+    {
+        .navbar1
+        {
+           background-color: black;
+
+            .imgburger
+            {
+                display: flex;
+            }
+
+            .container1
+            {
+                width: 150px;
+                display: none;
+                background-color: black;
+                .menu1
+                {
+                    flex-direction: column;
+
+                        .working
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .working:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+
+                    .auction
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .auction:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+
+                    .hints
+                    {
+                        font-size: 14px;
+                        font-family: "Blacks Italic";
+                        cursor: pointer;
+                    }
+
+                    .hints:hover
+                    {
+                        font-size: 15px;
+                        color: #DAC0C0;
+                    }
+                }
+            }
+        }
+
+        .footer
+        {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 0px;
+
+            .maps
+            {
+                .text
+                {
+                    display: none;
+                }
+
+                .map
+                {
+                    display: none;
+                }
+
+                .messendger
+                {
+                    flex-direction: column;
+                    gap: 20px;
+                }
+            }
+
+            .сontacts
+            {
+                margin-left: 0;
+            }
+
+            .administrators
+            {
+                display: none;
+            }
+        }
+    }
+}

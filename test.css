@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+}
+.container .buttons {
+  margin-left: 527px;
+}
+.container .buttons button {
+  background: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+.container .buttons button:hover {
+  background: orangered;
+}
+.container .slider {
+  border: 2px solid black;
+  max-width: 100%;
+  width: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.container .slider-line {
+  width: 300px;
+  display: flex;
+  background: orange;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}/*# sourceMappingURL=test.css.map */

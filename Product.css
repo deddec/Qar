@@ -1,0 +1,505 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Blacks Italic";
+  src: url("intro-black-italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Italic";
+  src: url("italic.woff") format("woff");
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3D2020;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ABA0A0;
+}
+
+.body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.body .navbar {
+  width: 100%;
+  max-width: 1505px;
+  padding: 4px;
+  background-image: linear-gradient(to right, #ABA0A0, #454040);
+  justify-content: center;
+  overflow: hidden;
+}
+.body .navbar .container {
+  display: flex;
+  width: 100%;
+}
+.body .navbar .container .logo {
+  margin-left: 15px;
+}
+.body .navbar .container .searching {
+  margin-left: 90px;
+  padding: 5px;
+}
+.body .navbar .container .searching .search {
+  font-size: 30px;
+  font-family: "Blacks Italic";
+}
+.body .navbar1 {
+  width: 100%;
+  max-width: 1505px;
+  padding: 4px;
+  justify-content: center;
+  background-color: #3D2020;
+}
+.body .navbar1 .imgburger {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.body .navbar1 .container1 {
+  display: flex;
+  width: 100%;
+}
+.body .navbar1 .container1 .menu1 {
+  display: flex;
+  gap: 20px;
+  color: white;
+  margin-left: 5px;
+}
+.body .navbar1 .container1 .menu1 .working {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  cursor: pointer;
+}
+.body .navbar1 .container1 .menu1 .working:hover {
+  font-size: 15px;
+  color: #DAC0C0;
+}
+.body .navbar1 .container1 .menu1 .auction {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  cursor: pointer;
+}
+.body .navbar1 .container1 .menu1 .auction:hover {
+  font-size: 15px;
+  color: #DAC0C0;
+}
+.body .navbar1 .container1 .menu1 .hints {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  cursor: pointer;
+}
+.body .navbar1 .container1 .menu1 .hints:hover {
+  font-size: 15px;
+  color: #DAC0C0;
+}
+.body .productinfo {
+  display: flex;
+  padding: 1px;
+  flex-wrap: wrap;
+}
+.body .productinfo .container {
+  max-width: 1200px;
+  padding: 30px;
+}
+.body .productinfo .container .buttons {
+  margin-left: 75px;
+}
+.body .productinfo .container .buttons button {
+  background: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  color: aliceblue;
+}
+.body .productinfo .container .buttons button:hover {
+  background: orangered;
+}
+.body .productinfo .container .slider {
+  border: 2px solid black;
+  max-width: 100%;
+  width: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.body .productinfo .container .slider-line {
+  width: 300px;
+  display: flex;
+  background: orange;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+.body .productinfo .info {
+  background-color: #3D2020;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  margin: 13px 13px 0px 13px;
+}
+.body .productinfo .info .bluetext {
+  font-size: 20px;
+  font-family: "Blacks Italic";
+  color: #6A5EF4;
+  padding: 5px;
+}
+.body .productinfo .info .text {
+  font-size: 14px;
+  font-family: "Italic";
+  color: white;
+  padding: 3px;
+}
+.body .productinfo .info .text1 {
+  font-size: 14px;
+  font-family: "Italic";
+  color: white;
+  padding: 6px;
+  background-color: #241A1A;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0px 0px 10% 0px;
+}
+.body .productinfo .inforate {
+  background-color: #3D2020;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 500px;
+  border-radius: 10px;
+  margin: 13px 13px 0px 13px;
+}
+.body .productinfo .inforate .bluetext {
+  font-size: 20px;
+  font-family: "Blacks Italic";
+  color: #6A5EF4;
+  padding: 5px;
+}
+.body .productinfo .inforate .textrate .inrate {
+  font-size: 14px;
+  font-family: "Italic";
+  color: white;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+.body .productinfo .inforate .textrate .inrate .text {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  color: white;
+}
+.body .productinfo .inforate .textrate .inrate .link {
+  font-family: "Blacks Italic";
+  color: #6A5EF4;
+}
+.body .productinfo .inforate .textrate .form {
+  display: flex;
+}
+.body .productinfo .inforate .textrate .form .imgtext {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  color: white;
+}
+.body .productinfo .inforate .textrate .form .forms {
+  margin: 4.5% 0px 0px 4px;
+}
+.body .productinfo .inforate .textrate .form .forms .bid {
+  background-color: #3D2020;
+  color: white;
+}
+.body .productinfo .inforate .textrate .form .forms .inform {
+  font-size: 14px;
+  font-family: "Blacks Italic";
+  color: white;
+}
+.body .productinfo .inforate .textrate .form .forms .button {
+  margin: 3% 0px 5% 47%;
+  padding: 4px;
+  background-color: #3D2020;
+  color: white;
+  font-size: 14px;
+  font-family: "Blacks Italic";
+}
+.body .productinfo .deliveri {
+  width: 100%;
+  max-width: 300px;
+}
+.body .productinfo .deliveri .text1 {
+  font-size: 20px;
+  font-family: "Blacks Italic";
+  color: white;
+  padding: 5px;
+  margin-left: 12%;
+}
+.body .productinfo .deliveri .deliveris {
+  display: flex;
+  gap: 10%;
+  margin-left: 10%;
+}
+.body .productinfo .deliveri .deliveris .deliveri1 {
+  background-color: #3D2020;
+  border-radius: 5px;
+  height: 100%;
+  max-height: 20px;
+  font-family: "Blacks Italic";
+  color: white;
+  padding: 4px;
+}
+.body .productinfo .deliveri .deliveris .deliveri2 {
+  background-color: #3D2020;
+  border-radius: 5px;
+  height: 100%;
+  max-height: 20px;
+  font-family: "Blacks Italic";
+  color: white;
+  padding: 4px;
+}
+.body .productinfo .infodeliveri .text {
+  font-size: 17px;
+  font-family: "Italic";
+  color: white;
+  padding: 5px;
+  margin-left: 12%;
+}
+.body .productinfo .infodeliveri .forms {
+  display: flex;
+}
+.body .productinfo .infodeliveri .forms .text1 {
+  font-size: 15px;
+  font-family: "Italic";
+  color: white;
+  padding: 5px;
+  margin-left: 12%;
+  width: 70%;
+  margin-top: -5%;
+}
+.body .productinfo .infodeliveri .forms .form .addres {
+  background-color: #3D2020;
+  color: white;
+}
+.body .productinfo .informdeliv {
+  margin: 13px 0px 0px 25px;
+  background-color: #3D2020;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 420px;
+}
+.body .productinfo .informdeliv .text {
+  color: white;
+  font-family: "Italic";
+  font-size: 14px;
+  padding: 5px;
+}
+.body .productinfo .informdeliv .infosale .colortext {
+  font-size: 20px;
+  font-family: "Blacks Italic";
+  color: #6A5EF4;
+  padding: 5px;
+}
+.body .productinfo .informdeliv .infosale .text1 {
+  font-size: 14px;
+  font-family: "Italic";
+  color: white;
+  padding: 5px;
+}
+.body .questions {
+  background-color: black;
+  width: 100%;
+  max-width: 1505px;
+  height: 300px;
+}
+.body .questions .name {
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-family: "Blacks Italic";
+  font-size: 20px;
+  padding: 5px;
+}
+.body .questions .questions_answers .answers1 {
+  margin-top: 3px;
+  align-items: flex-start;
+  color: white;
+  font-family: "Blacks Italic";
+  font-size: 15px;
+  padding: 15px;
+  border-top: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+  cursor: pointer;
+}
+.body .questions .questions_answers .content {
+  font-size: 14px;
+  font-family: "Italic";
+  color: white;
+  padding: 10px;
+  margin: 4px 5px 4px 5px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: none;
+}
+.body .footer {
+  display: flex;
+  background-color: black;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 1505px;
+  height: 300px;
+  gap: 90px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.body .footer .maps .text {
+  font-size: 17px;
+  font-family: "Blacks Italic";
+  color: white;
+  padding: 2px;
+  margin-left: 10px;
+}
+.body .footer .maps .map {
+  width: 100%;
+  max-width: 100px;
+  height: 100%;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.body .footer .messendger {
+  display: flex;
+  margin-left: 25px;
+  gap: 10px;
+}
+.body .footer .messendger .telegram {
+  width: 100%;
+  max-width: 40px;
+  height: 100%;
+  max-height: 40px;
+  margin-top: 6px;
+}
+.body .footer .messendger .instagram {
+  width: 100%;
+  max-width: 40px;
+  height: 100%;
+  max-height: 40px;
+  margin-top: 6px;
+}
+.body .footer .messendger .discord {
+  width: 100%;
+  max-width: 40px;
+  height: 100%;
+  max-height: 40px;
+  margin-top: 6px;
+}
+.body .footer .сontacts {
+  background-color: #3D2020;
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 210px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.body .footer .сontacts .img {
+  width: 100%;
+  max-width: 170px;
+  height: 100%;
+  max-height: 80px;
+  padding: 8px;
+}
+.body .footer .сontacts .text {
+  font-family: "Blacks Italic";
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  text-align: center;
+}
+.body .footer .administrators {
+  margin-left: 10px;
+}
+.body .footer .administrators .text1 {
+  font-family: "Blacks Italic";
+  color: white;
+  font-size: 16px;
+}
+.body .footer .administrators .text2 {
+  font-family: "Blacks Italic";
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .body .navbar1 {
+    background-color: black;
+  }
+  .body .navbar1 .imgburger {
+    display: flex;
+  }
+  .body .navbar1 .container1 {
+    width: 150px;
+    display: none;
+    background-color: black;
+  }
+  .body .navbar1 .container1 .menu1 {
+    flex-direction: column;
+  }
+  .body .navbar1 .container1 .menu1 .working {
+    font-size: 14px;
+    font-family: "Blacks Italic";
+    cursor: pointer;
+  }
+  .body .navbar1 .container1 .menu1 .working:hover {
+    font-size: 15px;
+    color: #DAC0C0;
+  }
+  .body .navbar1 .container1 .menu1 .auction {
+    font-size: 14px;
+    font-family: "Blacks Italic";
+    cursor: pointer;
+  }
+  .body .navbar1 .container1 .menu1 .auction:hover {
+    font-size: 15px;
+    color: #DAC0C0;
+  }
+  .body .navbar1 .container1 .menu1 .hints {
+    font-size: 14px;
+    font-family: "Blacks Italic";
+    cursor: pointer;
+  }
+  .body .navbar1 .container1 .menu1 .hints:hover {
+    font-size: 15px;
+    color: #DAC0C0;
+  }
+  .body .footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+  }
+  .body .footer .maps .text {
+    display: none;
+  }
+  .body .footer .maps .map {
+    display: none;
+  }
+  .body .footer .maps .messendger {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .body .footer .сontacts {
+    margin-left: 0;
+  }
+  .body .footer .administrators {
+    display: none;
+  }
+}/*# sourceMappingURL=Product.css.map */
